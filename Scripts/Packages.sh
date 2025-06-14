@@ -68,7 +68,7 @@ UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 UPDATE_PACKAGE "luci-app-partexp" "sirpdboy/luci-app-partexp" "main"
 UPDATE_PACKAGE "luci-app-dnsfilter" "kiddin9/luci-app-dnsfilter" "main"
 
-rm -rf feeds/luci/applications/luci-app-usb-printer
+#rm -rf feeds/luci/applications/luci-app-usb-printer
 
 #更新软件包版本
 UPDATE_VERSION() {
