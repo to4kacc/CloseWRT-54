@@ -1,7 +1,5 @@
 #!/bin/bash
 
-rm -rf feeds/luci/applications/luci-app-usb-printer
-
 #安装和更新软件包
 UPDATE_PACKAGE() {
 	local PKG_NAME=$1
@@ -72,7 +70,7 @@ UPDATE_PACKAGE "luci-app-dnsfilter" "kiddin9/luci-app-dnsfilter" "main"
 UPDATE_PACKAGE "luci-app-partexp" "sirpdboy/luci-app-partexp" "main"
 
 
-UPDATE_PACKAGE "sing-box" "sos801107/packages" "main" "" "sing-box"
+#UPDATE_PACKAGE "sing-box" "sos801107/packages" "main" "" "sing-box"
 
 #更新软件包版本
 UPDATE_VERSION() {
