@@ -50,8 +50,6 @@ UPDATE_PACKAGE() {
 UPDATE_PACKAGE "argon" "sbwml/luci-theme-argon" "openwrt-24.10"
 UPDATE_PACKAGE "kucat" "sirpdboy/luci-theme-kucat" "js"
 
-rm -rf package/feeds/packages/sing-box
-UPDATE_PACKAGE "sing-box" "sos801107/packages" "main" "" "sing-box"
 
 UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
 UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main"
@@ -73,6 +71,8 @@ UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 UPDATE_PACKAGE "luci-app-dnsfilter" "kiddin9/luci-app-dnsfilter" "main"
 UPDATE_PACKAGE "luci-app-partexp" "sirpdboy/luci-app-partexp" "main"
 
+
+UPDATE_PACKAGE "sing-box" "sos801107/packages" "main" "" "sing-box"
 
 #更新软件包版本
 UPDATE_VERSION() {
