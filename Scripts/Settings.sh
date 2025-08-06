@@ -1,6 +1,4 @@
 #!/bin/bash
-rm -rf package/feeds/packages/sing-box
-rm -rf feeds/packages/sing-box
 
 #修改系统
 mkdir -p files/etc/config
