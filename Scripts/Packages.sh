@@ -70,7 +70,7 @@ UPDATE_PACKAGE "luci-app-dnsfilter" "kiddin9/luci-app-dnsfilter" "main"
 UPDATE_PACKAGE "luci-app-partexp" "sirpdboy/luci-app-partexp" "main"
 
 
-UPDATE_PACKAGE "sing-box" "sos801107/packages" "main" "" "sing-box"
+#UPDATE_PACKAGE "sing-box" "sos801107/packages" "main" "" "sing-box"
 
 #更新软件包版本
 UPDATE_VERSION() {
@@ -114,4 +114,4 @@ UPDATE_VERSION() {
 }
 
 #UPDATE_VERSION "软件包名" "测试版，true，可选，默认为否"
-#UPDATE_VERSION "sing-box"
+UPDATE_VERSION "sing-box"
