@@ -59,5 +59,3 @@ sed -i '/luci-app-mtk/d' ./.config
 sed -i '/luci-app-upnp/d' ./.config
 sed -i '/luci-app-wol/d' ./.config
 sed -i '/wifi-profile/d' ./.config
-
-rm -rf feeds/luci/applications/luci-app-usb-printer
