@@ -69,7 +69,7 @@ UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
 UPDATE_PACKAGE "luci-app-dnsfilter" "kiddin9/luci-app-dnsfilter" "main"
 UPDATE_PACKAGE "luci-app-partexp" "sirpdboy/luci-app-partexp" "main"
-UPDATE_PACKAGE "mysing-box" "sos801107/packages" "main" "" "sing-box"
+##UPDATE_PACKAGE "mysing-box" "sos801107/packages" "main" "" "sing-box"
 
 
 #cp -r mysing-box/sing-box feeds/packages/net
