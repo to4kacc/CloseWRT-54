@@ -53,7 +53,7 @@ UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
 UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main"
 UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
 UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "main" "pkg"
-UPDATE_PACKAGE "openwrt-passwall-packages" "xiaorouji/openwrt-passwall-packages" "main"
+##UPDATE_PACKAGE "openwrt-passwall-packages" "xiaorouji/openwrt-passwall-packages" "main"
 UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 UPDATE_PACKAGE "ddns-go" "sirpdboy/luci-app-ddns-go" "main"
 UPDATE_PACKAGE "easytier" "EasyTier/luci-app-easytier" "main"
@@ -68,10 +68,10 @@ UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
 UPDATE_PACKAGE "luci-app-dnsfilter" "kiddin9/luci-app-dnsfilter" "main"
 UPDATE_PACKAGE "luci-app-partexp" "sirpdboy/luci-app-partexp" "main"
-##UPDATE_PACKAGE "mysing-box" "sos801107/packages" "main" "" "sing-box"
+UPDATE_PACKAGE "mysing-box" "sos801107/packages" "main" "" "sing-box"
 
 rm -rf feeds/packages/net/sing-box
-cp -r openwrt-passwall-packages/sing-box feeds/packages/net
+cp -r mysing-box/sing-box feeds/packages/net
 
 #更新软件包版本
 UPDATE_VERSION() {
