@@ -1,5 +1,5 @@
 #科学插件调整
-CONFIG_PACKAGE_luci-app-homeproxy=y
+CONFIG_PACKAGE_luci-app-homeproxy=n
 CONFIG_PACKAGE_luci-app-nikki=n
 CONFIG_PACKAGE_luci-app-passwall=y
 CONFIG_PACKAGE_luci-app-openclash=n
@@ -49,6 +49,7 @@ CONFIG_MTK_MEMORY_SHRINK_AGGRESS=n
 
 
 CONFIG_PACKAGE_ucode-mod-digest=y
+
 
 
 
