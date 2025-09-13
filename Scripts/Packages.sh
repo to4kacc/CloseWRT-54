@@ -50,8 +50,8 @@ UPDATE_PACKAGE "argon" "sbwml/luci-theme-argon" "openwrt-24.10"
 UPDATE_PACKAGE "kucat" "sirpdboy/luci-theme-kucat" "js"
 
 
-UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
-#UPDATE_PACKAGE "homeproxy" "kiddin9/kwrt-packages" "main" "" "luci-app-homeproxy"
+#UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
+UPDATE_PACKAGE "homeproxy" "kiddin9/kwrt-packages" "main" "" "luci-app-homeproxy"
 UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main"
 UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
 UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "main" "pkg"
